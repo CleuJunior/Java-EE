@@ -2,27 +2,22 @@
     pageEncoding="UTF-8"%>
     
 <%@ page import="java.util.List, br.com.alura.grenciador.servlet.Empresa" %>
-<!DOCTYPE html>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<!DOCTYPE hmtl>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<meta charset="ISO-8859-1">
+<title>Java Standard Taglib</title>
 </head>
 <body>
-	<h2>Lista de empresas:</h2>
-	<ul>
-	
-		<% 
-			List<Empresa> lista = (List<Empresa>) request.getAttribute("empresas");
-			for (Empresa empresa : lista) {
-		%>
-			<li><%= empresa.getNome() %></li>
-		<%
-			}
-		
-		%>
-		
-	</ul>
+    Lista de empresas: <br />
+
+    <ul>
+        <c:forEach items="${empresas}" var="empresa">
+            <li>${empresa.nome}</li>
+        </c:forEach>
+    </ul>
 
 </body>
 </html>
