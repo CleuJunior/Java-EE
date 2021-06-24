@@ -1,6 +1,6 @@
 <%
-	String nome = "Teste JSP";
-	System.out.println(nome);
+	String nomeEmpresa = (String) request.getAttribute("empresa");
+	
 %>
 <!DOCTYPE html>
 <html>
@@ -10,7 +10,7 @@
 </head>
 <body>
 
-	Teste nome: <% out.println(nome); %>
+	Empresa <strong><%= nomeEmpresa %></strong> cadastrada com sucesso!
 
 </body>
 </html>
