@@ -1,7 +1,6 @@
 package br.com.alura.grenciador.servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -16,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/listaEmpresas")
 public class ListaEmpresasServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+	private static final long serialVgitersionUID = 1L;
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)

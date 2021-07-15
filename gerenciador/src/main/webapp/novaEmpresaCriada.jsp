@@ -1,3 +1,5 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +8,12 @@
 </head>
 <body>
 
-	Empresa <strong>${ empresa }</strong> cadastrada com sucesso!
-
+	<c:if test="${ not empty empresa }">
+		Empresa <strong>${ empresa }</strong> cadastrada com sucesso!
+	</c:if>
+	
+	<c:if test="${ empty empresa }">
+		Nenhuma empresa cadastrada!
+	</c:if>
 </body>
 </html>
