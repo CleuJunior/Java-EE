@@ -2,8 +2,14 @@
 
 <venda>
 	<formaDePagamento>Boleto</formaDePagamento>
-	<produto>
-		<nome> Livro de xml</nome>
-		<preco>29.90</preco>
-	</produto>
+	<produtos>
+		<produto>
+			<nome> Livro de xml</nome>
+			<preco>29.90</preco>
+		</produto>
+		<produto>
+			<nome> Java OO </nome>
+			<preco>19.38</preco>
+		</produto>
+	</produtos>
 </venda>
