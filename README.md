@@ -1,2 +1,1 @@
-# Java-EE
-Repository for Java Web Studies
+# Trilha Java para Web - [Alura](https://www.alura.com.br/)
