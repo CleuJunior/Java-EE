@@ -12,6 +12,10 @@ public class Produto {
 		this.preco = preco;
 	}
 
+	public Produto() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getNome() {
 		return nome;
 	}
