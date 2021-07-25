@@ -1,10 +1,12 @@
 package br.com.alura.grenciador.servlet;
 
+import java.util.Date;
+
 public class Empresa {
 	
 	private Integer id;
 	private String nome;
-	
+    private Date dataAbertura;
 	
 	
 	public Integer getId() {
@@ -20,6 +22,12 @@ public class Empresa {
 		this.nome = nome;
 	}
 	
-	
+    public void setDataAbertura(Date dataAbertura) {
+        this.dataAbertura = dataAbertura;
+    }
+    
+    public Date getDataAbertura() { 
+        return dataAbertura;
+    }
 
 }
