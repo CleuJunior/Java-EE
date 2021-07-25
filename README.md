@@ -23,6 +23,8 @@
 - [x] Completando o CRUD
 - [x] Deploy da aplicação
 
+#### Projeto: [Gerenciado de Empresas](https://github.com/CleuJunior/Java-EE/tree/main/gerenciador)
+
 <hr>
 
 ### Java Servlet: Autenticação, autorização e o padrão MVC :black_square_button:
