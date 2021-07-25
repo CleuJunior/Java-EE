@@ -23,7 +23,7 @@
 - [x] Completando o CRUD
 - [x] Deploy da aplicação
 
-#### Projeto: [Gerenciado de Empresas](https://github.com/CleuJunior/Java-EE/tree/main/gerenciador)
+#### Projeto: [Gerenciador de Empresas](https://github.com/CleuJunior/Java-EE/tree/main/gerenciador)
 
 <hr>
 
