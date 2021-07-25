@@ -100,3 +100,25 @@
 - [ ] Logout e o escopo Flash
 
 <hr>
+
+### Java e JSF 2 - II: Componentes ricos com Primefaces :black_square_button:
+
+#### Objetivo do treinamento:
+
+- Aplique os poderosos componentes do Primefaces
+- Ordene e filtro os elementos de uma tabela
+- Aplique AJAX para melhorar a experiência do usuário
+- Gere gráficos dinâmicamente
+
+#### Modulos do Curso:
+
+- [ ] Apresentação e teste de avaliação Ver primeiro vídeo
+- [ ] Começando com Primefaces
+- [ ] Componentes ricos no formulário
+- [ ] Mais usabilidade na página de livros
+- [ ] Dados tabulares com Primefaces
+- [ ] Melhorando a navegação com menus
+- [ ] Aplicando temas
+- [ ] Gráfico com Primefaces
+
+<hr>
