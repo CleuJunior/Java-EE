@@ -46,9 +46,13 @@ public class NovaEmpresaServlet extends HttpServlet {
 		Banco banco = new Banco();
 		banco.adiciona(empresa);
 		
-		//Chamar o JSP
-		RequestDispatcher redrct =  request.getRequestDispatcher("/novaEmpresaCriada.jsp");
+		
 		request.setAttribute("empresa", empresa.getNome());
-		redrct.forward(request, response);
+		response.sendRedirect("listaEmpresas");
+
+		//chamar JPS
+		//RequestDispatcher rd = request.getRequestDispatcher("/listaEmpresas");
+		//request.setAttribute("empresa", empresa.getNome());
+		//rd.forward(request, response);
 	}
 }
