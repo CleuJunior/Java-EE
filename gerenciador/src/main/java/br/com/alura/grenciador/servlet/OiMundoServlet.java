@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = "/oi")
+//@WebServlet(urlPatterns = "/oi")
 public class OiMundoServlet extends HttpServlet{
 	
 	@Override
