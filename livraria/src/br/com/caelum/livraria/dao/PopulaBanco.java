@@ -76,7 +76,7 @@ public class PopulaBanco {
 		Livro livro = new Livro();
 		livro.setIsbn(isbn);
 		livro.setTitulo(titulo);
-		livro.setDataLancamento(data);
+		livro.setDataLancamento(parseData(data));
 		livro.setPreco(preco);
 		livro.adicionaAutor(autor);
 		return livro;
